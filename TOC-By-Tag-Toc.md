@@ -1,8 +1,89 @@
-## 🔗 LeetCode标签分类(LeetCode Tags)
+<a name="index">**Index**</a>
+&emsp;<a href="#0">🔗 LeetCode标签分类(LeetCode Tags)</a>  
+&emsp;&emsp;<a href="#1">[栈](https://leetcode.cn/problemset/all/?topicSlugs=stack)</a>  
+&emsp;&emsp;<a href="#2">[堆](https://leetcode.cn/problemset/all/?topicSlugs=heap)</a>  
+&emsp;&emsp;<a href="#3">[贪心](https://leetcode.cn/problemset/all/?topicSlugs=greedy)</a>  
+&emsp;&emsp;<a href="#4">[位运算](https://leetcode.cn/problemset/all/?topicSlugs=bit-manipulation)</a>  
+&emsp;&emsp;<a href="#5">[树](https://leetcode.cn/problemset/all/?topicSlugs=tree)</a>  
+&emsp;&emsp;<a href="#6">[深度优先搜索](https://leetcode.cn/problemset/all/?topicSlugs=depth-first-search)</a>  
+&emsp;&emsp;<a href="#7">[广度优先搜索](https://leetcode.cn/problemset/all/?topicSlugs=breadth-first-search)</a>  
+&emsp;&emsp;<a href="#8">[并查集](https://leetcode.cn/problemset/all/?topicSlugs=union-find)</a>  
+&emsp;&emsp;<a href="#9">[图](https://leetcode.cn/problemset/all/?topicSlugs=graph)</a>  
+&emsp;&emsp;<a href="#10">[设计](https://leetcode.cn/problemset/all/?topicSlugs=design)</a>  
+&emsp;&emsp;<a href="#11">[拓扑排序](https://leetcode.cn/problemset/all/?topicSlugs=topological-sort)</a>  
+&emsp;&emsp;<a href="#12">[字典树](https://leetcode.cn/problemset/all/?topicSlugs=trie)</a>  
+&emsp;&emsp;<a href="#13">[树状数组](https://leetcode.cn/problemset/all/?topicSlugs=binary-indexed-tree)</a>  
+&emsp;&emsp;<a href="#14">[线段树](https://leetcode.cn/problemset/all/?topicSlugs=segment-tree)</a>  
+&emsp;&emsp;<a href="#15">[二叉搜索树](https://leetcode.cn/problemset/all/?topicSlugs=binary-search-tree)</a>  
+&emsp;&emsp;<a href="#16">[递归](https://leetcode.cn/problemset/all/?topicSlugs=recursion)</a>  
+&emsp;&emsp;<a href="#17">[脑筋急转弯](https://leetcode.cn/problemset/all/?topicSlugs=brainteaser)</a>  
+&emsp;&emsp;<a href="#18">[记忆化搜索](https://leetcode.cn/problemset/all/?topicSlugs=memoization)</a>  
+&emsp;&emsp;<a href="#19">[队列](https://leetcode.cn/problemset/all/?topicSlugs=queue)</a>  
+&emsp;&emsp;<a href="#20">[极小化极大](https://leetcode.cn/problemset/all/?topicSlugs=question_minimax)</a>  
+&emsp;&emsp;<a href="#21">[水塘抽样](https://leetcode.cn/problemset/all/?topicSlugs=reservoir-sampling)</a>  
+&emsp;&emsp;<a href="#22">[几何](https://leetcode.cn/problemset/all/?topicSlugs=geometry)</a>  
+&emsp;&emsp;<a href="#23">[Map](https://leetcode.cn/problemset/all/?topicSlugs=map)</a>  
+&emsp;&emsp;<a href="#24">[数组](https://leetcode.cn/problemset/all/?topicSlugs=array)</a>  
+&emsp;&emsp;<a href="#25">[哈希表](https://leetcode.cn/problemset/all/?topicSlugs=hash-table)</a>  
+&emsp;&emsp;<a href="#26">[链表](https://leetcode.cn/problemset/all/?topicSlugs=linked-list)</a>  
+&emsp;&emsp;<a href="#27">[数学](https://leetcode.cn/problemset/all/?topicSlugs=math)</a>  
+&emsp;&emsp;<a href="#28">[双指针](https://leetcode.cn/problemset/all/?topicSlugs=two-pointers)</a>  
+&emsp;&emsp;<a href="#29">[字符串](https://leetcode.cn/problemset/all/?topicSlugs=string)</a>  
+&emsp;&emsp;<a href="#30">[二分查找](https://leetcode.cn/problemset/all/?topicSlugs=binary-search)</a>  
+&emsp;&emsp;<a href="#31">[分治](https://leetcode.cn/problemset/all/?topicSlugs=divide-and-conquer)</a>  
+&emsp;&emsp;<a href="#32">[动态规划](https://leetcode.cn/problemset/all/?topicSlugs=dynamic-programming)</a>  
+&emsp;&emsp;<a href="#33">[回溯](https://leetcode.cn/problemset/all/?topicSlugs=backtracking)</a>  
+&emsp;&emsp;<a href="#34">[二叉树](https://leetcode.cn/problemset/all/?topicSlugs=binary-tree)</a>  
+&emsp;&emsp;<a href="#35">[状态压缩](https://leetcode.cn/problemset/all/?topicSlugs=bitmask)</a>  
+&emsp;&emsp;<a href="#36">[桶排序](https://leetcode.cn/problemset/all/?topicSlugs=bucket-sort)</a>  
+&emsp;&emsp;<a href="#37">[组合数学](https://leetcode.cn/problemset/all/?topicSlugs=combinatorics)</a>  
+&emsp;&emsp;<a href="#38">[多线程](https://leetcode.cn/problemset/all/?topicSlugs=concurrency)</a>  
+&emsp;&emsp;<a href="#39">[计数](https://leetcode.cn/problemset/all/?topicSlugs=counting)</a>  
+&emsp;&emsp;<a href="#40">[计数排序](https://leetcode.cn/problemset/all/?topicSlugs=counting-sort)</a>  
+&emsp;&emsp;<a href="#41">[数据流](https://leetcode.cn/problemset/all/?topicSlugs=data-stream)</a>  
+&emsp;&emsp;<a href="#42">[数据库](https://leetcode.cn/problemset/all/?topicSlugs=database)</a>  
+&emsp;&emsp;<a href="#43">[双向链表](https://leetcode.cn/problemset/all/?topicSlugs=doubly-linked-list)</a>  
+&emsp;&emsp;<a href="#44">[枚举](https://leetcode.cn/problemset/all/?topicSlugs=enumeration)</a>  
+&emsp;&emsp;<a href="#45">[博弈](https://leetcode.cn/problemset/all/?topicSlugs=game-theory)</a>  
+&emsp;&emsp;<a href="#46">[交互](https://leetcode.cn/problemset/all/?topicSlugs=interactive)</a>  
+&emsp;&emsp;<a href="#47">[迭代器](https://leetcode.cn/problemset/all/?topicSlugs=iterator)</a>  
+&emsp;&emsp;<a href="#48">[矩阵](https://leetcode.cn/problemset/all/?topicSlugs=matrix)</a>  
+&emsp;&emsp;<a href="#49">[最小生成树](https://leetcode.cn/problemset/all/?topicSlugs=minimum-spanning-tree)</a>  
+&emsp;&emsp;<a href="#50">[数论](https://leetcode.cn/problemset/all/?topicSlugs=number-theory)</a>  
+&emsp;&emsp;<a href="#51">[OOP](https://leetcode.cn/problemset/all/?topicSlugs=oop)</a>  
+&emsp;&emsp;<a href="#52">[有序集合](https://leetcode.cn/problemset/all/?topicSlugs=ordered-set)</a>  
+&emsp;&emsp;<a href="#53">[前缀和](https://leetcode.cn/problemset/all/?topicSlugs=prefix-sum)</a>  
+&emsp;&emsp;<a href="#54">[快速选择](https://leetcode.cn/problemset/all/?topicSlugs=quickselect)</a>  
+&emsp;&emsp;<a href="#55">[基数排序](https://leetcode.cn/problemset/all/?topicSlugs=radix-sort)</a>  
+&emsp;&emsp;<a href="#56">[Shell](https://leetcode.cn/problemset/all/?topicSlugs=shell)</a>  
+&emsp;&emsp;<a href="#57">[最短路](https://leetcode.cn/problemset/all/?topicSlugs=shortest-path)</a>  
+&emsp;&emsp;<a href="#58">[排序](https://leetcode.cn/problemset/all/?topicSlugs=sorting)</a>  
+&emsp;&emsp;<a href="#59">[字符串匹配](https://leetcode.cn/problemset/all/?topicSlugs=string-matching)</a>  
+&emsp;&emsp;<a href="#60">[后缀数组](https://leetcode.cn/problemset/all/?topicSlugs=suffix-array)</a>  
+&emsp;&emsp;<a href="#61">[Random](https://leetcode.cn/problemset/all/?topicSlugs=random)</a>  
+&emsp;&emsp;<a href="#62">[拒绝采样](https://leetcode.cn/problemset/all/?topicSlugs=rejection-sampling)</a>  
+&emsp;&emsp;<a href="#63">[滑动窗口](https://leetcode.cn/problemset/all/?topicSlugs=sliding-window)</a>  
+&emsp;&emsp;<a href="#64">[Ordered Map](https://leetcode.cn/problemset/all/?topicSlugs=ordered-map)</a>  
+&emsp;&emsp;<a href="#65">[扫描线](https://leetcode.cn/problemset/all/?topicSlugs=line-sweep)</a>  
+&emsp;&emsp;<a href="#66">[单调队列](https://leetcode.cn/problemset/all/?topicSlugs=monotonic-queue)</a>  
+&emsp;&emsp;<a href="#67">[单调栈](https://leetcode.cn/problemset/all/?topicSlugs=monotonic-stack)</a>  
+&emsp;&emsp;<a href="#68">[模拟](https://leetcode.cn/problemset/all/?topicSlugs=simulation)</a>  
+&emsp;&emsp;<a href="#69">[双连通分量](https://leetcode.cn/problemset/all/?topicSlugs=biconnected-component)</a>  
+&emsp;&emsp;<a href="#70">[Dequeue](https://leetcode.cn/problemset/all/?topicSlugs=dequeue)</a>  
+&emsp;&emsp;<a href="#71">[欧拉回路](https://leetcode.cn/problemset/all/?topicSlugs=eulerian-circuit)</a>  
+&emsp;&emsp;<a href="#72">[哈希函数](https://leetcode.cn/problemset/all/?topicSlugs=hash-function)</a>  
+&emsp;&emsp;<a href="#73">[堆（优先队列）](https://leetcode.cn/problemset/all/?topicSlugs=heap-priority-queue)</a>  
+&emsp;&emsp;<a href="#74">[Meet in the Middle](https://leetcode.cn/problemset/all/?topicSlugs=meet-in-the-middle)</a>  
+&emsp;&emsp;<a href="#75">[归并排序](https://leetcode.cn/problemset/all/?topicSlugs=merge-sort)</a>  
+&emsp;&emsp;<a href="#76">[概率与统计](https://leetcode.cn/problemset/all/?topicSlugs=probability-and-statistics)</a>  
+&emsp;&emsp;<a href="#77">[随机化](https://leetcode.cn/problemset/all/?topicSlugs=randomized)</a>  
+&emsp;&emsp;<a href="#78">[滚动哈希](https://leetcode.cn/problemset/all/?topicSlugs=rolling-hash)</a>  
+&emsp;&emsp;<a href="#79">[强连通分量](https://leetcode.cn/problemset/all/?topicSlugs=strongly-connected-component)</a>  
+## <a name="0">🔗 LeetCode标签分类(LeetCode Tags)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 [TOC]
 
-### [栈](https://leetcode.cn/problemset/all/?topicSlugs=stack)
+### <a name="1">[栈](https://leetcode.cn/problemset/all/?topicSlugs=stack)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -47,13 +128,13 @@
 | [1320](https://leetcode.cn/problems/minimum-distance-to-type-a-word-using-two-fingers/) | [minimum-distance-to-type-a-word-using-two-fingers](algorithms/1301-1400/1320.minimum-distance-to-type-a-word-using-two-fingers.md) | [68](https://leetcode.cn/problems/minimum-distance-to-type-a-word-using-two-fingers/solution/) | 59.2% | 困难 | NO| ★ |
 
 ------
-### [堆](https://leetcode.cn/problemset/all/?topicSlugs=heap)
+### <a name="2">[堆](https://leetcode.cn/problemset/all/?topicSlugs=heap)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [贪心](https://leetcode.cn/problemset/all/?topicSlugs=greedy)
+### <a name="3">[贪心](https://leetcode.cn/problemset/all/?topicSlugs=greedy)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -103,7 +184,7 @@
 | [1379](https://leetcode.cn/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/) | [find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](algorithms/1301-1400/1379.find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree.md) | [192](https://leetcode.cn/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/solution/) | 84.0% | 中等 | YES| ★ |
 
 ------
-### [位运算](https://leetcode.cn/problemset/all/?topicSlugs=bit-manipulation)
+### <a name="4">[位运算](https://leetcode.cn/problemset/all/?topicSlugs=bit-manipulation)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -143,7 +224,7 @@
 | [1220](https://leetcode.cn/problems/count-vowels-permutation/) | [count-vowels-permutation](algorithms/1201-1300/1220.count-vowels-permutation.md) | [345](https://leetcode.cn/problems/count-vowels-permutation/solution/) | 60.6% | 困难 | YES| ★★ |
 
 ------
-### [树](https://leetcode.cn/problemset/all/?topicSlugs=tree)
+### <a name="5">[树](https://leetcode.cn/problemset/all/?topicSlugs=tree)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -207,7 +288,7 @@
 | [1296](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/) | [divide-array-in-sets-of-k-consecutive-numbers](algorithms/1201-1300/1296.divide-array-in-sets-of-k-consecutive-numbers.md) | [156](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/solution/) | 48.4% | 中等 | YES| ★ |
 
 ------
-### [深度优先搜索](https://leetcode.cn/problemset/all/?topicSlugs=depth-first-search)
+### <a name="6">[深度优先搜索](https://leetcode.cn/problemset/all/?topicSlugs=depth-first-search)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -283,7 +364,7 @@
 | [1368](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | [minimum-cost-to-make-at-least-one-valid-path-in-a-grid](algorithms/1301-1400/1368.minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md) | [127](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/solution/) | 57.2% | 困难 | YES| ★ |
 
 ------
-### [广度优先搜索](https://leetcode.cn/problemset/all/?topicSlugs=breadth-first-search)
+### <a name="7">[广度优先搜索](https://leetcode.cn/problemset/all/?topicSlugs=breadth-first-search)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -338,7 +419,7 @@
 | [1368](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | [minimum-cost-to-make-at-least-one-valid-path-in-a-grid](algorithms/1301-1400/1368.minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md) | [127](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/solution/) | 57.2% | 困难 | YES| ★ |
 
 ------
-### [并查集](https://leetcode.cn/problemset/all/?topicSlugs=union-find)
+### <a name="8">[并查集](https://leetcode.cn/problemset/all/?topicSlugs=union-find)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -353,7 +434,7 @@
 | [989](https://leetcode.cn/problems/add-to-array-form-of-integer/) | [add-to-array-form-of-integer](algorithms/901-1000/989.add-to-array-form-of-integer.md) | [693](https://leetcode.cn/problems/add-to-array-form-of-integer/solution/) | 46.9% | 简单 | YES| ★★★ |
 
 ------
-### [图](https://leetcode.cn/problemset/all/?topicSlugs=graph)
+### <a name="9">[图](https://leetcode.cn/problemset/all/?topicSlugs=graph)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -377,7 +458,7 @@
 | [984](https://leetcode.cn/problems/string-without-aaa-or-bbb/) | [string-without-aaa-or-bbb](algorithms/901-1000/984.string-without-aaa-or-bbb.md) | [180](https://leetcode.cn/problems/string-without-aaa-or-bbb/solution/) | 42.6% | 中等 | YES| ★ |
 
 ------
-### [设计](https://leetcode.cn/problemset/all/?topicSlugs=design)
+### <a name="10">[设计](https://leetcode.cn/problemset/all/?topicSlugs=design)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -407,7 +488,7 @@
 | [1296](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/) | [divide-array-in-sets-of-k-consecutive-numbers](algorithms/1201-1300/1296.divide-array-in-sets-of-k-consecutive-numbers.md) | [156](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/solution/) | 48.4% | 中等 | YES| ★ |
 
 ------
-### [拓扑排序](https://leetcode.cn/problemset/all/?topicSlugs=topological-sort)
+### <a name="11">[拓扑排序](https://leetcode.cn/problemset/all/?topicSlugs=topological-sort)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -419,7 +500,7 @@
 | [881](https://leetcode.cn/problems/boats-to-save-people/) | [boats-to-save-people](algorithms/801-900/881.boats-to-save-people.md) | [682](https://leetcode.cn/problems/boats-to-save-people/solution/) | 53.8% | 中等 | YES| ★★★ |
 
 ------
-### [字典树](https://leetcode.cn/problemset/all/?topicSlugs=trie)
+### <a name="12">[字典树](https://leetcode.cn/problemset/all/?topicSlugs=trie)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -436,7 +517,7 @@
 | [1125](https://leetcode.cn/problems/smallest-sufficient-team/) | [smallest-sufficient-team](algorithms/1101-1200/1125.smallest-sufficient-team.md) | [62](https://leetcode.cn/problems/smallest-sufficient-team/solution/) | 49.8% | 困难 | NO| ★ |
 
 ------
-### [树状数组](https://leetcode.cn/problemset/all/?topicSlugs=binary-indexed-tree)
+### <a name="13">[树状数组](https://leetcode.cn/problemset/all/?topicSlugs=binary-indexed-tree)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -450,7 +531,7 @@
 | [1262](https://leetcode.cn/problems/greatest-sum-divisible-by-three/) | [greatest-sum-divisible-by-three](algorithms/1201-1300/1262.greatest-sum-divisible-by-three.md) | [237](https://leetcode.cn/problems/greatest-sum-divisible-by-three/solution/) | 52.8% | 中等 | YES| ★★ |
 
 ------
-### [线段树](https://leetcode.cn/problemset/all/?topicSlugs=segment-tree)
+### <a name="14">[线段树](https://leetcode.cn/problemset/all/?topicSlugs=segment-tree)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -464,7 +545,7 @@
 | [1262](https://leetcode.cn/problems/greatest-sum-divisible-by-three/) | [greatest-sum-divisible-by-three](algorithms/1201-1300/1262.greatest-sum-divisible-by-three.md) | [237](https://leetcode.cn/problems/greatest-sum-divisible-by-three/solution/) | 52.8% | 中等 | YES| ★★ |
 
 ------
-### [二叉搜索树](https://leetcode.cn/problemset/all/?topicSlugs=binary-search-tree)
+### <a name="15">[二叉搜索树](https://leetcode.cn/problemset/all/?topicSlugs=binary-search-tree)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -488,7 +569,7 @@
 | [1114](https://leetcode.cn/problems/print-in-order/) | [print-in-order](algorithms/1101-1200/1114.print-in-order.md) | [676](https://leetcode.cn/problems/print-in-order/solution/) | 65.2% | 简单 | YES| ★★★ |
 
 ------
-### [递归](https://leetcode.cn/problemset/all/?topicSlugs=recursion)
+### <a name="16">[递归](https://leetcode.cn/problemset/all/?topicSlugs=recursion)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -517,14 +598,14 @@
 | [1013](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/) | [partition-array-into-three-parts-with-equal-sum](algorithms/1001-1100/1013.partition-array-into-three-parts-with-equal-sum.md) | [980](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/solution/) | 39.1% | 简单 | YES| ★★★ |
 
 ------
-### [脑筋急转弯](https://leetcode.cn/problemset/all/?topicSlugs=brainteaser)
+### <a name="17">[脑筋急转弯](https://leetcode.cn/problemset/all/?topicSlugs=brainteaser)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [292](https://leetcode.cn/problems/nim-game/) | [nim-game](algorithms/201-300/292.nim-game.md) | [905](https://leetcode.cn/problems/nim-game/solution/) | 70.7% | 简单 | YES| ★★★ |
 
 ------
-### [记忆化搜索](https://leetcode.cn/problemset/all/?topicSlugs=memoization)
+### <a name="18">[记忆化搜索](https://leetcode.cn/problemset/all/?topicSlugs=memoization)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -536,7 +617,7 @@
 | [1013](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/) | [partition-array-into-three-parts-with-equal-sum](algorithms/1001-1100/1013.partition-array-into-three-parts-with-equal-sum.md) | [980](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/solution/) | 39.1% | 简单 | YES| ★★★ |
 
 ------
-### [队列](https://leetcode.cn/problemset/all/?topicSlugs=queue)
+### <a name="19">[队列](https://leetcode.cn/problemset/all/?topicSlugs=queue)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -550,13 +631,13 @@
 | [1286](https://leetcode.cn/problems/iterator-for-combination/) | [iterator-for-combination](algorithms/1201-1300/1286.iterator-for-combination.md) | [117](https://leetcode.cn/problems/iterator-for-combination/solution/) | 65.2% | 中等 | NO| ★ |
 
 ------
-### [极小化极大](https://leetcode.cn/problemset/all/?topicSlugs=question_minimax)
+### <a name="20">[极小化极大](https://leetcode.cn/problemset/all/?topicSlugs=question_minimax)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [水塘抽样](https://leetcode.cn/problemset/all/?topicSlugs=reservoir-sampling)
+### <a name="21">[水塘抽样](https://leetcode.cn/problemset/all/?topicSlugs=reservoir-sampling)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -564,7 +645,7 @@
 | [914](https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards/) | [x-of-a-kind-in-a-deck-of-cards](algorithms/901-1000/914.x-of-a-kind-in-a-deck-of-cards.md) | [686](https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards/solution/) | 38.4% | 简单 | YES| ★★★ |
 
 ------
-### [几何](https://leetcode.cn/problemset/all/?topicSlugs=geometry)
+### <a name="22">[几何](https://leetcode.cn/problemset/all/?topicSlugs=geometry)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -579,13 +660,13 @@
 | [1349](https://leetcode.cn/problems/maximum-students-taking-exam/) | [maximum-students-taking-exam](algorithms/1301-1400/1349.maximum-students-taking-exam.md) | [111](https://leetcode.cn/problems/maximum-students-taking-exam/solution/) | 52.5% | 困难 | YES| ★ |
 
 ------
-### [Map](https://leetcode.cn/problemset/all/?topicSlugs=map)
+### <a name="23">[Map](https://leetcode.cn/problemset/all/?topicSlugs=map)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [数组](https://leetcode.cn/problemset/all/?topicSlugs=array)
+### <a name="24">[数组](https://leetcode.cn/problemset/all/?topicSlugs=array)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -841,7 +922,7 @@
 | [1769](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | [minimum-number-of-operations-to-move-all-balls-to-each-box](algorithms/1701-1800/1769.minimum-number-of-operations-to-move-all-balls-to-each-box.md) | [216](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/solution/) | 85.3% | 中等 | YES| ★ |
 
 ------
-### [哈希表](https://leetcode.cn/problemset/all/?topicSlugs=hash-table)
+### <a name="25">[哈希表](https://leetcode.cn/problemset/all/?topicSlugs=hash-table)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -942,7 +1023,7 @@
 | [1400](https://leetcode.cn/problems/construct-k-palindrome-strings/) | [construct-k-palindrome-strings](algorithms/1301-1400/1400.construct-k-palindrome-strings.md) | [127](https://leetcode.cn/problems/construct-k-palindrome-strings/solution/) | 61.1% | 中等 | YES| ★ |
 
 ------
-### [链表](https://leetcode.cn/problemset/all/?topicSlugs=linked-list)
+### <a name="26">[链表](https://leetcode.cn/problemset/all/?topicSlugs=linked-list)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -980,7 +1061,7 @@
 | [1267](https://leetcode.cn/problems/count-servers-that-communicate/) | [count-servers-that-communicate](algorithms/1201-1300/1267.count-servers-that-communicate.md) | [170](https://leetcode.cn/problems/count-servers-that-communicate/solution/) | 61.1% | 中等 | YES| ★ |
 
 ------
-### [数学](https://leetcode.cn/problemset/all/?topicSlugs=math)
+### <a name="27">[数学](https://leetcode.cn/problemset/all/?topicSlugs=math)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1068,7 +1149,7 @@
 | [2222](https://leetcode.cn/problems/number-of-ways-to-select-buildings/) | [md](algorithms/2201-2300/2222.md) | [115](https://leetcode.cn/problems/number-of-ways-to-select-buildings/solution/) | 47.7% | 中等 | YES| ★ |
 
 ------
-### [双指针](https://leetcode.cn/problemset/all/?topicSlugs=two-pointers)
+### <a name="28">[双指针](https://leetcode.cn/problemset/all/?topicSlugs=two-pointers)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1132,7 +1213,7 @@
 | [1183](https://leetcode.cn/problems/maximum-number-of-ones/) | [maximum-number-of-ones](algorithms/1101-1200/1183.maximum-number-of-ones.md) | [19](https://leetcode.cn/problems/maximum-number-of-ones/solution/) | 59.9% | 困难 | NO| ★ |
 
 ------
-### [字符串](https://leetcode.cn/problemset/all/?topicSlugs=string)
+### <a name="29">[字符串](https://leetcode.cn/problemset/all/?topicSlugs=string)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1273,7 +1354,7 @@
 | [2187](https://leetcode.cn/problems/minimum-time-to-complete-trips/) | [minimum-time-to-complete-trips](algorithms/2101-2200/2187.minimum-time-to-complete-trips.md) | [135](https://leetcode.cn/problems/minimum-time-to-complete-trips/solution/) | 26.5% | 中等 | YES| ★★ |
 
 ------
-### [二分查找](https://leetcode.cn/problemset/all/?topicSlugs=binary-search)
+### <a name="30">[二分查找](https://leetcode.cn/problemset/all/?topicSlugs=binary-search)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1327,7 +1408,7 @@
 | [1296](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/) | [divide-array-in-sets-of-k-consecutive-numbers](algorithms/1201-1300/1296.divide-array-in-sets-of-k-consecutive-numbers.md) | [156](https://leetcode.cn/problems/divide-array-in-sets-of-k-consecutive-numbers/solution/) | 48.4% | 中等 | YES| ★ |
 
 ------
-### [分治](https://leetcode.cn/problemset/all/?topicSlugs=divide-and-conquer)
+### <a name="31">[分治](https://leetcode.cn/problemset/all/?topicSlugs=divide-and-conquer)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1352,7 +1433,7 @@
 | [1014](https://leetcode.cn/problems/best-sightseeing-pair/) | [best-sightseeing-pair](algorithms/1001-1100/1014.best-sightseeing-pair.md) | [608](https://leetcode.cn/problems/best-sightseeing-pair/solution/) | 56.6% | 中等 | YES| ★★ |
 
 ------
-### [动态规划](https://leetcode.cn/problemset/all/?topicSlugs=dynamic-programming)
+### <a name="32">[动态规划](https://leetcode.cn/problemset/all/?topicSlugs=dynamic-programming)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1464,7 +1545,7 @@
 | [2187](https://leetcode.cn/problems/minimum-time-to-complete-trips/) | [minimum-time-to-complete-trips](algorithms/2101-2200/2187.minimum-time-to-complete-trips.md) | [135](https://leetcode.cn/problems/minimum-time-to-complete-trips/solution/) | 26.5% | 中等 | YES| ★★ |
 
 ------
-### [回溯](https://leetcode.cn/problemset/all/?topicSlugs=backtracking)
+### <a name="33">[回溯](https://leetcode.cn/problemset/all/?topicSlugs=backtracking)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1506,7 +1587,7 @@
 | [1188](https://leetcode.cn/problems/design-bounded-blocking-queue/) | [design-bounded-blocking-queue](algorithms/1101-1200/1188.design-bounded-blocking-queue.md) | [80](https://leetcode.cn/problems/design-bounded-blocking-queue/solution/) | 70.4% | 中等 | NO| ★ |
 
 ------
-### [二叉树](https://leetcode.cn/problemset/all/?topicSlugs=binary-tree)
+### <a name="34">[二叉树](https://leetcode.cn/problemset/all/?topicSlugs=binary-tree)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1564,7 +1645,7 @@
 | [1254](https://leetcode.cn/problems/number-of-closed-islands/) | [number-of-closed-islands](algorithms/1201-1300/1254.number-of-closed-islands.md) | [469](https://leetcode.cn/problems/number-of-closed-islands/solution/) | 62.0% | 中等 | YES| ★★ |
 
 ------
-### [状态压缩](https://leetcode.cn/problemset/all/?topicSlugs=bitmask)
+### <a name="35">[状态压缩](https://leetcode.cn/problemset/all/?topicSlugs=bitmask)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1577,7 +1658,7 @@
 | [1220](https://leetcode.cn/problems/count-vowels-permutation/) | [count-vowels-permutation](algorithms/1201-1300/1220.count-vowels-permutation.md) | [345](https://leetcode.cn/problems/count-vowels-permutation/solution/) | 60.6% | 困难 | YES| ★★ |
 
 ------
-### [桶排序](https://leetcode.cn/problemset/all/?topicSlugs=bucket-sort)
+### <a name="36">[桶排序](https://leetcode.cn/problemset/all/?topicSlugs=bucket-sort)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1588,7 +1669,7 @@
 | [692](https://leetcode.cn/problems/top-k-frequent-words/) | [top-k-frequent-words](algorithms/601-700/692.top-k-frequent-words.md) | [907](https://leetcode.cn/problems/top-k-frequent-words/solution/) | 56.8% | 中等 | YES| ★★★ |
 
 ------
-### [组合数学](https://leetcode.cn/problemset/all/?topicSlugs=combinatorics)
+### <a name="37">[组合数学](https://leetcode.cn/problemset/all/?topicSlugs=combinatorics)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1596,14 +1677,14 @@
 | [2187](https://leetcode.cn/problems/minimum-time-to-complete-trips/) | [minimum-time-to-complete-trips](algorithms/2101-2200/2187.minimum-time-to-complete-trips.md) | [135](https://leetcode.cn/problems/minimum-time-to-complete-trips/solution/) | 26.5% | 中等 | YES| ★★ |
 
 ------
-### [多线程](https://leetcode.cn/problemset/all/?topicSlugs=concurrency)
+### <a name="38">[多线程](https://leetcode.cn/problemset/all/?topicSlugs=concurrency)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [1368](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) | [minimum-cost-to-make-at-least-one-valid-path-in-a-grid](algorithms/1301-1400/1368.minimum-cost-to-make-at-least-one-valid-path-in-a-grid.md) | [127](https://leetcode.cn/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/solution/) | 57.2% | 困难 | YES| ★ |
 
 ------
-### [计数](https://leetcode.cn/problemset/all/?topicSlugs=counting)
+### <a name="39">[计数](https://leetcode.cn/problemset/all/?topicSlugs=counting)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1624,14 +1705,14 @@
 | [1169](https://leetcode.cn/problems/invalid-transactions/) | [invalid-transactions](algorithms/1101-1200/1169.invalid-transactions.md) | [88](https://leetcode.cn/problems/invalid-transactions/solution/) | 32.5% | 中等 | YES| ★ |
 
 ------
-### [计数排序](https://leetcode.cn/problemset/all/?topicSlugs=counting-sort)
+### <a name="40">[计数排序](https://leetcode.cn/problemset/all/?topicSlugs=counting-sort)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [274](https://leetcode.cn/problems/h-index/) | [h-index](algorithms/201-300/274.h-index.md) | [661](https://leetcode.cn/problems/h-index/solution/) | 44.2% | 中等 | NO| ★★★ |
 
 ------
-### [数据流](https://leetcode.cn/problemset/all/?topicSlugs=data-stream)
+### <a name="41">[数据流](https://leetcode.cn/problemset/all/?topicSlugs=data-stream)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1639,7 +1720,7 @@
 | [346](https://leetcode.cn/problems/moving-average-from-data-stream/) | [moving-average-from-data-stream](algorithms/301-400/346.moving-average-from-data-stream.md) | [179](https://leetcode.cn/problems/moving-average-from-data-stream/solution/) | 71.7% | 简单 | YES| ★ |
 
 ------
-### [数据库](https://leetcode.cn/problemset/all/?topicSlugs=database)
+### <a name="42">[数据库](https://leetcode.cn/problemset/all/?topicSlugs=database)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1660,7 +1741,7 @@
 | [1377](https://leetcode.cn/problems/frog-position-after-t-seconds/) | [frog-position-after-t-seconds](algorithms/1301-1400/1377.frog-position-after-t-seconds.md) | [147](https://leetcode.cn/problems/frog-position-after-t-seconds/solution/) | 33.2% | 困难 | YES| ★ |
 
 ------
-### [双向链表](https://leetcode.cn/problemset/all/?topicSlugs=doubly-linked-list)
+### <a name="43">[双向链表](https://leetcode.cn/problemset/all/?topicSlugs=doubly-linked-list)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1668,7 +1749,7 @@
 | [460](https://leetcode.cn/problems/lfu-cache/) | [lfu-cache](algorithms/401-500/460.lfu-cache.md) | [527](https://leetcode.cn/problems/lfu-cache/solution/) | 44.0% | 困难 | YES| ★★★ |
 
 ------
-### [枚举](https://leetcode.cn/problemset/all/?topicSlugs=enumeration)
+### <a name="44">[枚举](https://leetcode.cn/problemset/all/?topicSlugs=enumeration)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1678,7 +1759,7 @@
 | [1334](https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | [find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](algorithms/1301-1400/1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance.md) | [122](https://leetcode.cn/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/solution/) | 51.1% | 中等 | NO| ★ |
 
 ------
-### [博弈](https://leetcode.cn/problemset/all/?topicSlugs=game-theory)
+### <a name="45">[博弈](https://leetcode.cn/problemset/all/?topicSlugs=game-theory)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1687,7 +1768,7 @@
 | [1240](https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares/) | [tiling-a-rectangle-with-the-fewest-squares](algorithms/1201-1300/1240.tiling-a-rectangle-with-the-fewest-squares.md) | [47](https://leetcode.cn/problems/tiling-a-rectangle-with-the-fewest-squares/solution/) | 50.2% | 困难 | YES| ★ |
 
 ------
-### [交互](https://leetcode.cn/problemset/all/?topicSlugs=interactive)
+### <a name="46">[交互](https://leetcode.cn/problemset/all/?topicSlugs=interactive)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1697,14 +1778,14 @@
 | [1185](https://leetcode.cn/problems/day-of-the-week/) | [day-of-the-week](algorithms/1101-1200/1185.day-of-the-week.md) | [490](https://leetcode.cn/problems/day-of-the-week/solution/) | 62.6% | 简单 | YES| ★★ |
 
 ------
-### [迭代器](https://leetcode.cn/problemset/all/?topicSlugs=iterator)
+### <a name="47">[迭代器](https://leetcode.cn/problemset/all/?topicSlugs=iterator)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [173](https://leetcode.cn/problems/binary-search-tree-iterator/) | [binary-search-tree-iterator](algorithms/101-200/173.binary-search-tree-iterator.md) | [783](https://leetcode.cn/problems/binary-search-tree-iterator/solution/) | 81.1% | 中等 | YES| ★★★ |
 
 ------
-### [矩阵](https://leetcode.cn/problemset/all/?topicSlugs=matrix)
+### <a name="48">[矩阵](https://leetcode.cn/problemset/all/?topicSlugs=matrix)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1744,13 +1825,13 @@
 | [1400](https://leetcode.cn/problems/construct-k-palindrome-strings/) | [construct-k-palindrome-strings](algorithms/1301-1400/1400.construct-k-palindrome-strings.md) | [127](https://leetcode.cn/problems/construct-k-palindrome-strings/solution/) | 61.1% | 中等 | YES| ★ |
 
 ------
-### [最小生成树](https://leetcode.cn/problemset/all/?topicSlugs=minimum-spanning-tree)
+### <a name="49">[最小生成树](https://leetcode.cn/problemset/all/?topicSlugs=minimum-spanning-tree)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [数论](https://leetcode.cn/problemset/all/?topicSlugs=number-theory)
+### <a name="50">[数论](https://leetcode.cn/problemset/all/?topicSlugs=number-theory)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1758,13 +1839,13 @@
 | [258](https://leetcode.cn/problems/add-digits/) | [add-digits](algorithms/201-300/258.add-digits.md) | [1184](https://leetcode.cn/problems/add-digits/solution/) | 71.0% | 简单 | YES| ★★★ |
 
 ------
-### [OOP](https://leetcode.cn/problemset/all/?topicSlugs=oop)
+### <a name="51">[OOP](https://leetcode.cn/problemset/all/?topicSlugs=oop)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [有序集合](https://leetcode.cn/problemset/all/?topicSlugs=ordered-set)
+### <a name="52">[有序集合](https://leetcode.cn/problemset/all/?topicSlugs=ordered-set)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1778,7 +1859,7 @@
 | [914](https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards/) | [x-of-a-kind-in-a-deck-of-cards](algorithms/901-1000/914.x-of-a-kind-in-a-deck-of-cards.md) | [686](https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards/solution/) | 38.4% | 简单 | YES| ★★★ |
 
 ------
-### [前缀和](https://leetcode.cn/problemset/all/?topicSlugs=prefix-sum)
+### <a name="53">[前缀和](https://leetcode.cn/problemset/all/?topicSlugs=prefix-sum)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1797,7 +1878,7 @@
 | [1184](https://leetcode.cn/problems/distance-between-bus-stops/) | [distance-between-bus-stops](algorithms/1101-1200/1184.distance-between-bus-stops.md) | [319](https://leetcode.cn/problems/distance-between-bus-stops/solution/) | 58.4% | 简单 | YES| ★ |
 
 ------
-### [快速选择](https://leetcode.cn/problemset/all/?topicSlugs=quickselect)
+### <a name="54">[快速选择](https://leetcode.cn/problemset/all/?topicSlugs=quickselect)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1806,14 +1887,14 @@
 | [1014](https://leetcode.cn/problems/best-sightseeing-pair/) | [best-sightseeing-pair](algorithms/1001-1100/1014.best-sightseeing-pair.md) | [608](https://leetcode.cn/problems/best-sightseeing-pair/solution/) | 56.6% | 中等 | YES| ★★ |
 
 ------
-### [基数排序](https://leetcode.cn/problemset/all/?topicSlugs=radix-sort)
+### <a name="55">[基数排序](https://leetcode.cn/problemset/all/?topicSlugs=radix-sort)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [164](https://leetcode.cn/problems/maximum-gap/) | [maximum-gap](algorithms/101-200/164.maximum-gap.md) | [585](https://leetcode.cn/problems/maximum-gap/solution/) | 60.7% | 困难 | YES| ★★★ |
 
 ------
-### [Shell](https://leetcode.cn/problemset/all/?topicSlugs=shell)
+### <a name="56">[Shell](https://leetcode.cn/problemset/all/?topicSlugs=shell)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1822,7 +1903,7 @@
 | [195](https://leetcode.cn/problems/tenth-line/) | [tenth-line](algorithms/101-200/195.tenth-line.md) | [174](https://leetcode.cn/problems/tenth-line/solution/) | 44.0% | 简单 | YES| ★★ |
 
 ------
-### [最短路](https://leetcode.cn/problemset/all/?topicSlugs=shortest-path)
+### <a name="57">[最短路](https://leetcode.cn/problemset/all/?topicSlugs=shortest-path)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1831,7 +1912,7 @@
 | [918](https://leetcode.cn/problems/maximum-sum-circular-subarray/) | [maximum-sum-circular-subarray](algorithms/901-1000/918.maximum-sum-circular-subarray.md) | [401](https://leetcode.cn/problems/maximum-sum-circular-subarray/solution/) | 37.2% | 中等 | YES| ★★★ |
 
 ------
-### [排序](https://leetcode.cn/problemset/all/?topicSlugs=sorting)
+### <a name="58">[排序](https://leetcode.cn/problemset/all/?topicSlugs=sorting)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1906,7 +1987,7 @@
 | [1574](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) | [shortest-subarray-to-be-removed-to-make-array-sorted](algorithms/1501-1600/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) | [130](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/solution/) | 35.7% | 中等 | NO| ★ |
 
 ------
-### [字符串匹配](https://leetcode.cn/problemset/all/?topicSlugs=string-matching)
+### <a name="59">[字符串匹配](https://leetcode.cn/problemset/all/?topicSlugs=string-matching)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1916,25 +1997,25 @@
 | [572](https://leetcode.cn/problems/subtree-of-another-tree/) | [subtree-of-another-tree](algorithms/501-600/572.subtree-of-another-tree.md) | [1061](https://leetcode.cn/problems/subtree-of-another-tree/solution/) | 47.7% | 简单 | YES| ★★★ |
 
 ------
-### [后缀数组](https://leetcode.cn/problemset/all/?topicSlugs=suffix-array)
+### <a name="60">[后缀数组](https://leetcode.cn/problemset/all/?topicSlugs=suffix-array)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [Random](https://leetcode.cn/problemset/all/?topicSlugs=random)
+### <a name="61">[Random](https://leetcode.cn/problemset/all/?topicSlugs=random)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [拒绝采样](https://leetcode.cn/problemset/all/?topicSlugs=rejection-sampling)
+### <a name="62">[拒绝采样](https://leetcode.cn/problemset/all/?topicSlugs=rejection-sampling)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [滑动窗口](https://leetcode.cn/problemset/all/?topicSlugs=sliding-window)
+### <a name="63">[滑动窗口](https://leetcode.cn/problemset/all/?topicSlugs=sliding-window)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1961,20 +2042,20 @@
 | [1286](https://leetcode.cn/problems/iterator-for-combination/) | [iterator-for-combination](algorithms/1201-1300/1286.iterator-for-combination.md) | [117](https://leetcode.cn/problems/iterator-for-combination/solution/) | 65.2% | 中等 | NO| ★ |
 
 ------
-### [Ordered Map](https://leetcode.cn/problemset/all/?topicSlugs=ordered-map)
+### <a name="64">[Ordered Map](https://leetcode.cn/problemset/all/?topicSlugs=ordered-map)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [扫描线](https://leetcode.cn/problemset/all/?topicSlugs=line-sweep)
+### <a name="65">[扫描线](https://leetcode.cn/problemset/all/?topicSlugs=line-sweep)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [218](https://leetcode.cn/problems/the-skyline-problem/) | [the-skyline-problem](algorithms/201-300/218.the-skyline-problem.md) | [354](https://leetcode.cn/problems/the-skyline-problem/solution/) | 54.9% | 困难 | YES| ★★ |
 
 ------
-### [单调队列](https://leetcode.cn/problemset/all/?topicSlugs=monotonic-queue)
+### <a name="66">[单调队列](https://leetcode.cn/problemset/all/?topicSlugs=monotonic-queue)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -1983,7 +2064,7 @@
 | [1286](https://leetcode.cn/problems/iterator-for-combination/) | [iterator-for-combination](algorithms/1201-1300/1286.iterator-for-combination.md) | [117](https://leetcode.cn/problems/iterator-for-combination/solution/) | 65.2% | 中等 | NO| ★ |
 
 ------
-### [单调栈](https://leetcode.cn/problemset/all/?topicSlugs=monotonic-stack)
+### <a name="67">[单调栈](https://leetcode.cn/problemset/all/?topicSlugs=monotonic-stack)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -2000,7 +2081,7 @@
 | [883](https://leetcode.cn/problems/projection-area-of-3d-shapes/) | [projection-area-of-3d-shapes](algorithms/801-900/883.projection-area-of-3d-shapes.md) | [526](https://leetcode.cn/problems/projection-area-of-3d-shapes/solution/) | 76.6% | 简单 | YES| ★★ |
 
 ------
-### [模拟](https://leetcode.cn/problemset/all/?topicSlugs=simulation)
+### <a name="68">[模拟](https://leetcode.cn/problemset/all/?topicSlugs=simulation)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -2021,26 +2102,26 @@
 | [1769](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/) | [minimum-number-of-operations-to-move-all-balls-to-each-box](algorithms/1701-1800/1769.minimum-number-of-operations-to-move-all-balls-to-each-box.md) | [216](https://leetcode.cn/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/solution/) | 85.3% | 中等 | YES| ★ |
 
 ------
-### [双连通分量](https://leetcode.cn/problemset/all/?topicSlugs=biconnected-component)
+### <a name="69">[双连通分量](https://leetcode.cn/problemset/all/?topicSlugs=biconnected-component)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [Dequeue](https://leetcode.cn/problemset/all/?topicSlugs=dequeue)
+### <a name="70">[Dequeue](https://leetcode.cn/problemset/all/?topicSlugs=dequeue)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [欧拉回路](https://leetcode.cn/problemset/all/?topicSlugs=eulerian-circuit)
+### <a name="71">[欧拉回路](https://leetcode.cn/problemset/all/?topicSlugs=eulerian-circuit)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [754](https://leetcode.cn/problems/reach-a-number/) | [reach-a-number](algorithms/701-800/754.reach-a-number.md) | [123](https://leetcode.cn/problems/reach-a-number/solution/) | 44.3% | 中等 | YES| ★ |
 
 ------
-### [哈希函数](https://leetcode.cn/problemset/all/?topicSlugs=hash-function)
+### <a name="72">[哈希函数](https://leetcode.cn/problemset/all/?topicSlugs=hash-function)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -2049,7 +2130,7 @@
 | [572](https://leetcode.cn/problems/subtree-of-another-tree/) | [subtree-of-another-tree](algorithms/501-600/572.subtree-of-another-tree.md) | [1061](https://leetcode.cn/problems/subtree-of-another-tree/solution/) | 47.7% | 简单 | YES| ★★★ |
 
 ------
-### [堆（优先队列）](https://leetcode.cn/problemset/all/?topicSlugs=heap-priority-queue)
+### <a name="73">[堆（优先队列）](https://leetcode.cn/problemset/all/?topicSlugs=heap-priority-queue)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -2084,13 +2165,13 @@
 | [1574](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) | [shortest-subarray-to-be-removed-to-make-array-sorted](algorithms/1501-1600/1574.shortest-subarray-to-be-removed-to-make-array-sorted.md) | [130](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted/solution/) | 35.7% | 中等 | NO| ★ |
 
 ------
-### [Meet in the Middle](https://leetcode.cn/problemset/all/?topicSlugs=meet-in-the-middle)
+### <a name="74">[Meet in the Middle](https://leetcode.cn/problemset/all/?topicSlugs=meet-in-the-middle)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 
 ------
-### [归并排序](https://leetcode.cn/problemset/all/?topicSlugs=merge-sort)
+### <a name="75">[归并排序](https://leetcode.cn/problemset/all/?topicSlugs=merge-sort)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -2101,14 +2182,14 @@
 | [493](https://leetcode.cn/problems/reverse-pairs/) | [reverse-pairs](algorithms/401-500/493.reverse-pairs.md) | [326](https://leetcode.cn/problems/reverse-pairs/solution/) | 35.5% | 困难 | YES| ★★ |
 
 ------
-### [概率与统计](https://leetcode.cn/problemset/all/?topicSlugs=probability-and-statistics)
+### <a name="76">[概率与统计](https://leetcode.cn/problemset/all/?topicSlugs=probability-and-statistics)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
 | [1183](https://leetcode.cn/problems/maximum-number-of-ones/) | [maximum-number-of-ones](algorithms/1101-1200/1183.maximum-number-of-ones.md) | [19](https://leetcode.cn/problems/maximum-number-of-ones/solution/) | 59.9% | 困难 | NO| ★ |
 
 ------
-### [随机化](https://leetcode.cn/problemset/all/?topicSlugs=randomized)
+### <a name="77">[随机化](https://leetcode.cn/problemset/all/?topicSlugs=randomized)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -2118,7 +2199,7 @@
 | [914](https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards/) | [x-of-a-kind-in-a-deck-of-cards](algorithms/901-1000/914.x-of-a-kind-in-a-deck-of-cards.md) | [686](https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards/solution/) | 38.4% | 简单 | YES| ★★★ |
 
 ------
-### [滚动哈希](https://leetcode.cn/problemset/all/?topicSlugs=rolling-hash)
+### <a name="78">[滚动哈希](https://leetcode.cn/problemset/all/?topicSlugs=rolling-hash)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
@@ -2126,7 +2207,7 @@
 | [214](https://leetcode.cn/problems/shortest-palindrome/) | [shortest-palindrome](algorithms/201-300/214.shortest-palindrome.md) | [386](https://leetcode.cn/problems/shortest-palindrome/solution/) | 38.3% | 困难 | NO| ★★ |
 
 ------
-### [强连通分量](https://leetcode.cn/problemset/all/?topicSlugs=strongly-connected-component)
+### <a name="79">[强连通分量](https://leetcode.cn/problemset/all/?topicSlugs=strongly-connected-component)</a><a style="float:right;text-decoration:none;" href="#index">[Top]</a>
 
 | 题号 | 题名 | 题解 | 通过率 | 难度 | AC | 热度 | 
 |:---:| :-----: |:--:|:--:|:--:|:--:|:--:|
